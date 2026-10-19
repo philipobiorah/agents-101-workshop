@@ -1,0 +1,41 @@
+# API keys and local configuration
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Authentication credentials
+credentials.json
+token.json
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Personal expense records
+expenses.csv
+expense_details.csv
+practice_expense_details.csv
+expenses_multicurrency.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
